@@ -20,6 +20,7 @@ export default function useMediaQuery(breakpoint: BreakpointPrefix) {
 
   useEffect(() => {
     const mql = window.matchMedia(`(min-width: ${widthMapping[breakpoint]})`);
+    setMatches(mql.matches);
     mql.onchange = (ev) => setMatches(ev.matches);
   }, [breakpoint]);
 
