@@ -4,16 +4,16 @@ export const metadata: Metadata = {
   title: "Jay Debug",
   openGraph: {
     title: "Jay Debug",
-    images: ["https://jayjay1024.github.io/scroll-test/og image.png"],
+    images: ["https://jayjay1024.github.io/scroll-test/OG (1).png"],
   },
   other: {
     "fc:frame": "vNext",
-    "fc:frame:image": "https://jayjay1024.github.io/scroll-test/og image.png",
-    "fc:frame:button:1": "👍",
-    "fc:frame:button:2": "👍👍",
-    "fc:frame:button:3": "👍👍👍",
-    "fc:frame:button:4": "👍👍👍👍",
-    "fc:frame:button:5": "👍👍👍👍👍",
+    "fc:frame:image": "https://jayjay1024.github.io/scroll-test/OG (1).png",
+    "fc:frame:button:1": "⭐️",
+    "fc:frame:button:2": "⭐️⭐️",
+    "fc:frame:button:3": "⭐️⭐️⭐️",
+    "fc:frame:button:4": "⭐️⭐️⭐️⭐️",
+    "fc:frame:button:5": "⭐️⭐️⭐️⭐️⭐️",
   },
 };
 
