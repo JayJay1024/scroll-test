@@ -9,11 +9,11 @@ export const metadata: Metadata = {
   other: {
     "fc:frame": "vNext",
     "fc:frame:image": "https://jayjay1024.github.io/scroll-test/BeerGuy.jpeg",
-    "fc:frame:button:1": "Jay 1",
-    "fc:frame:button:2": "Jay 2",
-    "fc:frame:button:3": "Jay 3",
-    "fc:frame:button:4": "Jay 4",
-    "fc:frame:button:5": "Jay 5",
+    "fc:frame:button:1": "👍",
+    "fc:frame:button:2": "👍👍",
+    "fc:frame:button:3": "👍👍👍",
+    "fc:frame:button:4": "👍👍👍👍",
+    "fc:frame:button:5": "👍👍👍👍👍",
   },
 };
 
