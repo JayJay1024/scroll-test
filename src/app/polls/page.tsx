@@ -1,15 +1,16 @@
+import { HOST } from "@/config";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Jay Debug",
   openGraph: {
     title: "Jay Debug",
-    images: ["https://jayjay1024.github.io/scroll-test/OG (1).png"],
+    images: [`${HOST}/OG (1).png`],
   },
   other: {
     "fc:frame": "vNext",
-    "fc:frame:image": `${process.env['HOST']}/scroll-test/OG (1).png`,
-    "fc:frame:post_url": `${process.env['HOST']}/scroll-test/api`,
+    "fc:frame:image": `${HOST}/OG (1).png`,
+    "fc:frame:post_url": `${HOST}/api/vote?id=1`,
     "fc:frame:button:1": "Terrible 😠",
     "fc:frame:button:2": "Dissatisfied 🙁",
     "fc:frame:button:3": "Neutral 😐",
