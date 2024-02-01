@@ -61,6 +61,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       const imageUrl = `${process.env["HOST"]}/api/image?id=${poll.id}&results=${
         results ? "false" : "true"
       }&date=${Date.now()}${fid > 0 ? `&fid=${fid}` : ""}`;
+
       let button1Text = "View Results";
       if (!voted && !results) {
         button1Text = "Back";
