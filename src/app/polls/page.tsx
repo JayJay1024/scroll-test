@@ -9,17 +9,17 @@ export const metadata: Metadata = {
   other: {
     "fc:frame": "vNext",
     "fc:frame:image": "https://jayjay1024.github.io/scroll-test/OG (1).png",
-    "fc:frame:button:1": "⭐️",
-    "fc:frame:button:2": "⭐️⭐️",
-    "fc:frame:button:3": "⭐️⭐️⭐️",
-    "fc:frame:button:4": "⭐️⭐️⭐️⭐️",
-    "fc:frame:button:5": "⭐️⭐️⭐️⭐️⭐️",
+    "fc:frame:button:1": "Terrible 😠",
+    "fc:frame:button:2": "Dissatisfied 🙁",
+    "fc:frame:button:3": "Neutral 😐",
+    "fc:frame:button:4": "Satisfied 😃",
+    "fc:frame:button:5": "Awesome 🤩",
   },
 };
 
 export default function Polls() {
   return (
-    <main>
+    <main className="w-screen h-screen p-10">
       <p>This is Polls page.</p>
     </main>
   );
