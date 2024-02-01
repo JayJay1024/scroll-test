@@ -2,6 +2,10 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Jay Debug",
+  openGraph: {
+    title: "Jay Debug",
+    images: ["/BeerGuy.jpeg"],
+  },
   other: {
     "fc:frame": "vNext",
     "fc:frame:image": "/BeerGuy.jpeg",
