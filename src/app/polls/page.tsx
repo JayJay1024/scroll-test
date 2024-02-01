@@ -4,11 +4,11 @@ export const metadata: Metadata = {
   title: "Jay Debug",
   openGraph: {
     title: "Jay Debug",
-    images: ["/BeerGuy.jpeg"],
+    images: ["https://jayjay1024.github.io/scroll-test/BeerGuy.jpeg"],
   },
   other: {
     "fc:frame": "vNext",
-    "fc:frame:image": "/BeerGuy.jpeg",
+    "fc:frame:image": "https://jayjay1024.github.io/scroll-test/BeerGuy.jpeg",
     "fc:frame:button:3": "Jay 3",
     "fc:frame:button:4": "Jay 4",
     "fc:frame:button:5": "Jay 5",
@@ -23,3 +23,6 @@ export default function Polls() {
     </main>
   );
 }
+
+// https://fc-polls.vercel.app/polls/f444cc23-5a8c-43b5-806b-0cc7b791bc6e
+// https://jayjay1024.github.io/scroll-test/polls
