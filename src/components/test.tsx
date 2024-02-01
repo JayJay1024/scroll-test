@@ -1,11 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import useMediaQuery from "@/hooks/use-media-query";
+import { useEffect, useState } from "react";
 
 const array = new Array(20).fill(0);
 
 export default function Test() {
   const [scrollData, setScrollData] = useState({ scrollWidth: 0, clientWidth: 0, scrollLeft: 0 });
+  const isMatchedMediaQuery = useMediaQuery("lg");
+
+  useEffect(() => {
+    console.log("matches:", isMatchedMediaQuery);
+  }, [isMatchedMediaQuery]);
 
   const percent =
     scrollData.clientWidth < scrollData.scrollWidth
@@ -54,7 +60,10 @@ export default function Test() {
 
       <div className="flex flex-col items-center gap-5">
         <div className="relative h-2 w-screen bg-green-500">
-          <div className="absolute z-10 h-2 top-0 left-0 bg-red-500 w-0 transition-[width]" style={{ width: `${percent}vw` }} />
+          <div
+            className="absolute z-10 h-2 top-0 left-0 bg-red-500 w-0 transition-[width]"
+            style={{ width: `${percent}vw` }}
+          />
         </div>
         <span>
           {scrollData.scrollWidth}, {scrollData.clientWidth}, {scrollData.scrollLeft}
