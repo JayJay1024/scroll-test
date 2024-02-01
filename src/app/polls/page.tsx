@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   },
   other: {
     "fc:frame": "vNext",
-    "fc:frame:image": "https://jayjay1024.github.io/scroll-test/OG (1).png",
+    "fc:frame:image": `${process.env['HOST']}/scroll-test/OG (1).png`,
+    "fc:frame:post_url": `${process.env['HOST']}/scroll-test/api`,
     "fc:frame:button:1": "Terrible 😠",
     "fc:frame:button:2": "Dissatisfied 🙁",
     "fc:frame:button:3": "Neutral 😐",
